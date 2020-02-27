@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-reactive-form',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class ReactiveFormComponent {
   genders = ['male', 'female'];
+  signupForm: FormGroup;
 }
